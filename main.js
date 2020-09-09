@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
     //For Sphere 
-    for(var i=0; i < 500; i++){
+    for(var i=0; i < 350; i++){
         jQuery('<div class="c"></div>').appendTo(".particle-sphere");
     }
 

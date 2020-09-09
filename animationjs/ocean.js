@@ -34,7 +34,7 @@ function init() {
 
 	container = document.querySelector(".waves-js");
 
-	camera = new THREE.PerspectiveCamera( 80, window.innerWidth / window.innerHeight, 1, 10000 );
+	camera = new THREE.PerspectiveCamera( 90, window.innerWidth / window.innerHeight, 1, 10000 );
 	camera.position.y = 150; //changes how far back you can see i.e the particles towards horizon
 	camera.position.z = 300; //This is how close or far the particles are seen
 	
@@ -44,7 +44,7 @@ function init() {
 
 	particles = new Array();
 
-	var PI2 = Math.PI * 2;
+	var PI2 = Math.PI ;
 	var material = new THREE.SpriteCanvasMaterial( {
 
 		color: '#c6c6c6', //changes color of particles
